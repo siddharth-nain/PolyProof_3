@@ -6,11 +6,11 @@ module.exports = {
   solidity: "0.8.18",
   networks: {
     mumbai: {
-      url: 'https://api.avax-test.network/ext/bc/C/rpc',
+      url: 'https://rpc-mumbai.maticvigil.com',
       accounts: [process.env.PRIVATE_KEY],
     },
     goerli: {
-      url: 'https://api.avax-test.network/ext/C/rpc',
+      url: 'https://ethereum-goerli.publicnode.com',
       accounts: [process.env.PRIVATE_KEY],
     },
   }
