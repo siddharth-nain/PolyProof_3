@@ -43,3 +43,7 @@ This is a Solidity smart contract for creating and managing Non-Fungible Tokens 
 3. The `mint()` function allows the contract owner to mint new NFTs with a specified quantity. The `quantity` parameter determines how many NFTs will be minted in a single transaction. The maximum allowed quantity is 5.
 4. The `getPromptDescriptions()` function allows anyone to query the prompt descriptions available for minting NFTs.
 Please note that the contract allows only the owner to mint new NFTs and provides a maximum limit to the quantity of NFTs that can be minted in a single transaction. Additionally, the base URL for the NFTs is predefined and cannot be changed after deployment.
+
+
+### Author
+Siddharth Nain
