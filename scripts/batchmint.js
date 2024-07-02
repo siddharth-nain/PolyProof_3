@@ -13,7 +13,7 @@ async function main() {
     }
 
     // Set up the provider and signer using the Goerli network
-    const provider = new ethers.JsonRpcProvider("https://api.avax-test.network/ext/bc/C/rpc");
+    const provider = new ethers.JsonRpcProvider("https://ethereum-goerli.publicnode.com");
     const wallet = new ethers.Wallet(privateKey, provider);
 
     // Get the contract instance
