@@ -6,7 +6,7 @@ require('dotenv').config();
 async function main() {
 
   // connection btw rpc and wallet !
-  const networkAddress = 'https://ethereum-goerli.publicnode.com';
+  const networkAddress = 'https://polygon-amoy.drpc.org';
   const privateKey = process.env.PRIVATE_KEY;
   const provider = new ethers.JsonRpcProvider(networkAddress);
 
