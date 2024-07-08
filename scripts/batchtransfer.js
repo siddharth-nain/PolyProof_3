@@ -48,12 +48,6 @@ async function main() {
 
   console.log("\n 🎊 🎉 Congracts !! Your bridge and deposite is succesffuly");
 
-  
-  // Test balanceOf
-  const balance = await nft.balanceOf(wallet.address);
-
-  // Print the balance of the wallet
-  console.log("\n The Amount of NFT in your wallet remaining is : ", balance.toString());
 }
 
 
