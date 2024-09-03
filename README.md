@@ -5,14 +5,14 @@
 
 Run npm i to install dependencies
 Put your private key in the .env.examples file and rename to .env when finished
-Run npx hardhat run scripts/deploy.js --network sepholia to deploy ERC20 contract
+Run npx hardhat run scripts/deploy.js --network sepolia to deploy ERC20 contract
 Paste the newly deployed contract address in the tokenAddress variable for the other scripts
 Make sure to fill in your public key
 run `npm install`.
 next check the `hardhat.config.js` file and make necessary changes and also check `contracts/MyNFTS.sol` file .
-run : `npx hardhat run scripts/deploy.js --network sepholia` to deploy the smart contract on the ETH testnet.
+run : `npx hardhat run scripts/deploy.js --network sepolia` to deploy the smart contract on the ETH testnet.
 run : `node scripts/batchmint.js` . to mint 5 NFTS at one go !
-run : `npx hardhat run scripts/batchtransfer.js --network sepholia` to send nfts and at end we get our balance also !.
+run : `npx hardhat run scripts/batchtransfer.js --network sepolia` to send nfts and at end we get our balance also !.
 
 # MyNFT Smart Contract Explanation : 
 
@@ -46,4 +46,4 @@ Please note that the contract allows only the owner to mint new NFTs and provide
 
 
 ### Author
-Siddharth Nain
+Nikhil Sharma
